@@ -1,25 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import Count from "./Componet/Count";
+
+
+
+//  function App() {
+
+//   // let name = "Nivesh"
+//   // let age = 25;
+//   // let address = "Rewa"
+
+//   return (
+//     <div>
+//   <Count/>
+
+//   </div>
+
+//   )
+//  };
+
+// export default App;
+
+
+
+// *****************************************
+
+
+// import Home from "./Componet/Home";
+
+// function App(){
+
+//   return(
+//     <div>
+//     <h1>Home page</h1>
+//     </div>
+//   )
+// }
+
+// export default App;
+
+
+
+
+// *******************************************************
+
+
+import Navbar from "./Componet/Navbar";
+
+function App(){
+
+  return(
+    <>
+  
+     <h1>Navbar</h1>
+     <h2>Navbar 2</h2>
+     
+   </>
+  )
 }
-
 export default App;
